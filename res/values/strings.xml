@@ -13687,4 +13687,7 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- Refresh rate -->
+    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 </resources>
