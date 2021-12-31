@@ -13675,4 +13675,7 @@
     <string name="sidebar_title">Sidebar</string>
     <string name="sidebar_summary">Quickly open apps in a floating window</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle Manager</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 </resources>
