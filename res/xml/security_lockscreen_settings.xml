@@ -81,6 +81,21 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
+
+        <PreferenceCategory
+            android:key="lockscreen_clock_category"
+            android:title="@string/lockscreen_clock_category_title">
+            <Preference
+                android:key="lockscreen_preview"
+                settings:layout="@layout/lockscreen_preview" />
+            <org.evolution.settings.preferences.SystemSettingListPreference
+                android:entries="@array/clock_style_entries"
+                android:title="@string/custom_clock_style"
+                android:key="clock_style"
+                android:defaultValue="0"
+                android:entryValues="@array/clock_style_values" />
+        </PreferenceCategory>
+
     </PreferenceCategory>
 
     <PreferenceCategory
