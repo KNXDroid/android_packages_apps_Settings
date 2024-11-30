@@ -13670,4 +13670,8 @@
 
     <!-- Text for Search bar of Settings home screen [CHAR LIMIT=34] -->
     <string name="homepage_search">Search Settings</string>
+
+    <!-- Sidebar -->
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
 </resources>
