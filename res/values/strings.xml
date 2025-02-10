@@ -13710,7 +13710,4 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
-
-    <!-- Deep Sleep percentage in device info -->
-    <string name="status_sleep_time">Deep sleep</string>
 </resources>
