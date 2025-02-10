@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.system;
+package com.android.settings.development;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
