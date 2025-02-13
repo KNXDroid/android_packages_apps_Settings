@@ -78,7 +78,6 @@ public class SettingsDumpService extends Service {
             dump.put(KEY_DATAUSAGE, dumpDataUsage());
             dump.put(KEY_MEMORY, dumpMemory());
             dump.put(KEY_DEFAULT_BROWSER_APP, dumpDefaultBrowser());
-            dump.put(KEY_ANOMALY_DETECTION, dumpAnomalyDetection());
         } catch (Exception e) {
             e.printStackTrace();
         }
