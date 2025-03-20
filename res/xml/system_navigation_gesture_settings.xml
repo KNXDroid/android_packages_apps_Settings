@@ -19,4 +19,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/system_navigation_title"
-    settings:keywords="@string/keywords_system_navigation"/>
+    settings:keywords="@string/keywords_system_navigation">
+
+    <SwitchPreferenceCompat
+       android:key="enable_taskbar"
+       android:title="@string/navigation_bar_enable_taskbar_title"
+       android:order="110"
+       settings:controller="com.android.settings.gestures.TaskbarSettingsController"
+       settings:highlightableMenuKey="@string/menu_key_system" />
+
+</PreferenceScreen>
