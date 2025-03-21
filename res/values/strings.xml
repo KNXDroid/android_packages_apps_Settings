@@ -13690,4 +13690,21 @@
 
     <!-- Refresh rate -->
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_enable_taskbar_title">Enable taskbar</string>
+
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
 </resources>
