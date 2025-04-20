@@ -62,7 +62,7 @@
         settings:keywords="@string/keywords_system_navigation" />-->
 
     <!-- Sidebar -->
-    <Preference
+    <!--Preference
         android:key="sidebar"
         android:icon="@drawable/ic_floating"
         android:title="@string/sidebar_title"
@@ -71,7 +71,7 @@
             android:action="android.intent.action.IA_SETTINGS"
             android:targetPackage="com.libremobileos.sidebar"
             android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
-    </Preference>
+    </Preference>-->
 
 
     <Preference
