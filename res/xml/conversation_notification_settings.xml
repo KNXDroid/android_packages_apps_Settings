@@ -35,14 +35,6 @@
         settings:allowDividerAbove="true"
         settings:allowDividerBelow="true"/>
 
-    <!-- bubbles -->
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="bubble_pref"
-        android:title="@string/bubbles_conversation_toggle_title"
-        android:summary="@string/bubbles_conversation_toggle_summary"
-        android:icon="@drawable/ic_create_bubble"
-        settings:restrictedSwitchSummary="@string/enabled_by_admin" />
-
     <com.android.settingslib.widget.FooterPreference
         android:key="block_desc"
         settings:allowDividerAbove="false"/>

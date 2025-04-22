@@ -42,14 +42,6 @@
     <Preference
         android:key="invalid_conversation_info"/>
 
-    <!--Bubbles -->
-    <Preference
-        android:key="bubble_pref_link"
-        android:title="@string/notification_bubbles_title"
-        android:icon="@drawable/ic_create_bubble"
-        settings:controller="com.android.settings.notification.app.BubbleSummaryPreferenceController">
-    </Preference>
-
     <!-- Bundles added here -->
     <PreferenceCategory
         android:key="bundles"
