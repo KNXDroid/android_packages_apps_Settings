@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/energy_saving_features_title">
+
+    <SwitchPreference
+        android:key="data_pulse_toggle"
+        android:title="@string/data_pulse_title"
+        android:summary="@string/data_pulse_summary"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.fuelgauge.DataPulsePreferenceController" />
+
+    </PreferenceScreen>
